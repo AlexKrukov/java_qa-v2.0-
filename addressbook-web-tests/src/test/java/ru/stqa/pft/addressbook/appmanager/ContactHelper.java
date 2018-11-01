@@ -56,7 +56,7 @@ public class ContactHelper extends HelperBase {
         //click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
         wd.switchTo().alert().accept();
     }
-
+  
     public boolean isThereAContact() {
         return isElementPresent(By.name("selected[]"));
     }
